@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Raleway&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+}
+
+body, html {
+   background-color: #1d466e;
+   color: #cecdcb;
+   font-family: 'Raleway';
+   height: 100%;
+}
+
+.divContainer {
+   margin-top: 20px;
+   text-align: center;
+}
+
+.divImage img {
+   width: 150px;
+   border: 3px solid #ffffff;
+   border-radius: 100px;
+   box-shadow: 0 0 20px #ffffff;
+}
+
+.divTitles h1 {
+   font-family: 'Libre Baskerville';
+   font-size: 23px;
+   margin-bottom: 3px;
+   margin-top: 5px;
+}
+
+.divTitles h2 {
+   font-size: 16px;
+}
+
+.divMedias {
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+   margin: 20px 0px;
+}
+
+.divMedias img {
+   width: 33px;
+}
+
+.divMedias:hover img {
+   background-color: #74749e;
+   color: #a1a1e4;
+}
+
+.linksList {
+   list-style: none;
+}
+
+.linksList li a {
+   background-color: #a1a0a0;
+   color: #000000;
+   display: block;
+   font-family: 'Libre Baskerville';
+   font-size: 21px;
+   font-weight: bold;
+   padding: 15px 20px;
+   text-decoration: none;
+}
+
+.linksList li a span {
+   color: #000000;
+   display: block;
+   font-family: 'Raleway';
+   font-size: 17px;
+   margin-top: 10px;
+}
+
+.linksList:hover li a span {
+   text-decoration: underline;
+   text-transform: uppercase;
+}
+
+.linksList li {
+   border: 5px solid #a1a0a0;
+   border-radius: 20px;
+   box-shadow: 0 0 15px #918f8f;
+   margin: 10px 20px;
+}
